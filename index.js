@@ -15,7 +15,7 @@ main().catch(console.error);
 async function main() {
   /**
    * Connection URI */
-  const uri = "mongodb+srv://mongo:0GAflVeh1pnBp2sg@cluster0.5s5jgoz.mongodb.net/?retryWrites=true&w=majority";
+  const uri = "mongodb+srv://xxxx:xxxx@clusterxxxx.mongodb.net/?retryWrites=true&w=majority";
 
   const client = new MongoClient(uri);
 
